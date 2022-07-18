@@ -19,10 +19,10 @@ const forecast = (lat, long, callback) => {
           body.main.temp +
           " degrees outside. The humidity is " +
           body.main.humidity +
-          ". The maximum temperature today will be " +
-          body.main.temp_max +
-          " and the minimum temperature today will be " +
-          body.main.temp_min
+          ". The minimum temperature today will be " +
+          body.main.temp_min +
+          " and the maximum temperature today will be " +
+          body.main.temp_max
       );
     }
   });
