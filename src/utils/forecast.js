@@ -22,7 +22,8 @@ const forecast = (lat, long, callback) => {
           ". The minimum temperature today will be " +
           body.main.temp_min +
           " and the maximum temperature today will be " +
-          body.main.temp_max
+          body.main.temp_max +
+          "."
       );
     }
   });
